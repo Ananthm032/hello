@@ -1,0 +1,52 @@
+.ango{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8D7;
+    opacity: 0.5;
+    height: 72px;
+    width: 250px;
+  
+  }
+  .ango p{
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F1A240;
+    align-items: center;
+    justify-content: center;
+  }
+  .anal {
+    display: flex;
+    flex-basis: 250px;
+    width: 100%;
+    height: 86vh;
+    background: #FFFFFF;
+   flex-direction: column;
+  
+  }
+  .arout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start
+   
+  }
+  .arout p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   line-height: 10px;
+  
+   
+  }
+  .acon{
+    display: flex;
+    align-items: center;
+   
+  }
+  .contain{
+    display: flex;
+    flex-direction: row;
+  }

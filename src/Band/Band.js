@@ -1,9 +1,10 @@
-import * as React from 'react';
+import  React,{useEffect,useState} from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Box,Button } from '@mui/material';
+import Skeleton from '@mui/material/Skeleton';
 import Comment from "../Comment/Comment"
 import "./Band.css"
 export default function ControlledAccordions() {
@@ -12,11 +13,26 @@ export default function ControlledAccordions() {
     const handleChange = (panel) => (event, isExpanded) => {
       setExpanded(isExpanded ? panel : false);
     };
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+     
+      (async () => {
+        const res = await fetch('https://jsonplaceholder.typicode.com/users');
+        console.log(res);
+  
+        const data = await res.json();
+       
+        setData(data.splice(0, 3));
+      })();
+    }, []);
   
 
   return (
     <div  className='scrool-1'>
-       <Box className='hiii'>
+       <div className='hiii'>
+       {data.map(item=> (
+     <div  key={item.id.value}>
         <Box className='buc1'>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
@@ -28,18 +44,23 @@ export default function ControlledAccordions() {
       
           <Box className='top'>
             <Box className='top1'>
-          
-            CreateName
-         
+            
+           <Box sx={{ width: 200 }}>
+     
+      <Skeleton animation="wave" /> </Box>
+   
           </Box>
           <Box>
-            <Button>Pending</Button>
+           <Skeleton variant="circular" width={40} height={40} />
           </Box>
           </Box>
          
       
           <Box className='date'>
-            June21,2022
+          <Box sx={{ width: 200 }}>
+    
+    <Skeleton animation="wave" />
+        </Box>
            </Box>
       
   
@@ -71,15 +92,21 @@ export default function ControlledAccordions() {
       
           <Box className='tap'>
             <Box className='tap1'>
-            CreateName
+            <Box sx={{ width: 200 }}>
+    
+    <Skeleton animation="wave" />
+        </Box>
           </Box>
           <Box>
-            <Button>Pending</Button>
+          <Skeleton variant="circular" width={40} height={40} />
           </Box>
           </Box>
          
       <Box className='Nama'>
-       June21,2022
+      <Box sx={{ width: 200 }}>
+    
+    <Skeleton animation="wave" />
+        </Box>
       </Box>
   
         </AccordionSummary>
@@ -120,7 +147,9 @@ https://www.instagram.com/kalsdkmfklasmdklfmklsadmfklmlaksfmklmsdklfmksdmlf
   </AccordionDetails>
      </Accordion>
      </Box>
-     </Box>
+     </div>
+       ))}
+       </div>
     </div>
   );
 }
