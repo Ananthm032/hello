@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import React from "react";
+import Rejected from "./Rejected/Rejected"
+import Verified from "./Verified/Verified"
+import Forreview from "./Forreview/Forreview";
+import { Route, Routes} from "react-router-dom"
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Routes>
+ 
+ 
+<Route path="/" element={<Forreview/>}></Route>
+<Route path="/verified" element={<Verified/>}></Route>
+<Route path="/rejected" element={<Rejected/>}></Route>
+
+</Routes>
     </div>
   );
 }

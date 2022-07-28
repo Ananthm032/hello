@@ -1,0 +1,23 @@
+
+.header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid  #DBDBDB;
+    background-color: #FFFFFF;
+  }
+  .box{
+    display: flex;
+   align-items: center;
+   justify-content:center;
+  }
+  .box p{
+    color: #000;
+    font-family: sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    
+  }
