@@ -14,17 +14,16 @@ function App() {
 
   return (
     <>
-     <div>
+    
       {(pagesMapping.sidebar === page) && <Forreview />}
       {(pagesMapping.largeside === page) && <Verified />}
       {(pagesMapping.mini=== page) && <Rejected />}
-      </div>
-      <div>
+      
       <Routes>
         <Route path="/" element={<Forreview/>}/>
        <Route path='/analytic' element={<Ananlytic/>}></Route>
      </Routes>
-     </div>
+   
     </>
    
   );
