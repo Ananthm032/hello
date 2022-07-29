@@ -19,7 +19,7 @@ function Anal() {
              
             </Box>
             <Box className='arout'>
-            <Box ><a href='/' target='-blank' style={{textDecoration:'none',cursor:'pointer',color:'black'}} className='icon'><StopIcon/><p>ForReview</p></a></Box> 
+            <Box ><a href='/' style={{textDecoration:'none',cursor:'pointer',color:'black'}} className='icon'><StopIcon/><p>ForReview</p></a></Box> 
            <Box className='acon'  style={{cursor:'pointer'}}><StopIcon/><p>Ananlytic</p></Box>
             </Box>
     </section>

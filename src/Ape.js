@@ -5,12 +5,13 @@ import { pagesMapping, RoutingContext } from './Context/Routing'
 import Forreview from './Forreview/Forreview';
 import { Route, Routes } from 'react-router-dom';
 import Ananlytic from './Ananlaytic/Ananlytic';
+
 function Ape() {
   const { page } = useContext(RoutingContext)
 
   return (
     <>
-    
+ 
       {(pagesMapping.sidebar === page) && <Forreview />}
       {(pagesMapping.largeside === page) && <Verified />}
       {(pagesMapping.mini=== page) && <Rejected />}
@@ -19,7 +20,7 @@ function Ape() {
        
       </Route></Routes>
     
-
+     
       
       
 

@@ -3,7 +3,8 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Box,Button } from '@mui/material';
+import { Box, Button} from '@mui/material';
+
 import Skeleton from '@mui/material/Skeleton';
 import Comment from "../Comment/Comment"
 import "./Band.css"
@@ -14,23 +15,25 @@ export default function ControlledAccordions() {
       setExpanded(isExpanded ? panel : false);
     };
     const [data, setData] = useState([]);
-
+    const [Loading,SetLoading]=useState(true)
     useEffect(() => {
      
       (async () => {
         const res = await fetch('https://jsonplaceholder.typicode.com/users');
         console.log(res);
-  
         const data = await res.json();
-       
-        setData(data.splice(0, 3));
+        setData(data.splice(0,3));
+         setTimeout(()=>{
+        SetLoading(false);
+      },5000)
       })();
     }, []);
   
 
   return (
     <div  className='scrool-1'>
-       <div className='hiii'>
+      <div className='hiii'>
+     
        {data.map(item=> (
      <div  key={item.id.value}>
         <Box className='buc1'>
@@ -41,37 +44,58 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
            
-      
+
           <Box className='top'>
+        
             <Box className='top1'>
-            
-           <Box sx={{ width: 200 }}>
-     
-      <Skeleton animation="wave" /> </Box>
-   
-          </Box>
+          
+            {Loading ?     <Skeleton variant="text" 
+            width={250}
+            height={25}
+            />  :
+          <p>{item.name}</p>
+            }
+          
+           </Box>
+        
           <Box>
-          <Skeleton variant="circular" width={40} height={40} />
+<Button>pending</Button>
           </Box>
           </Box>
          
       
           <Box className='date'>
-          <Box sx={{ width: 200 }}>
-    
-    <Skeleton animation="wave" />
-        </Box>
-           </Box>
-      
-  
+         
+          {Loading ?     <Skeleton variant="circular" 
+            width={40}
+            height={40}
+            />  :
+          <p>{item.username}</p>
+          
+          }
+  </Box>
         </AccordionSummary>
         
         <AccordionDetails>
 <Box className='simple'>
-       <Box className='simple1'> ABOUT</Box>
-      <Box className='simple2'>  
+       <Box className='simple1'>
+       {Loading ?     <Skeleton variant="text" 
+            width={200}
+            height={25}
+            />  :
+          <p>{item.address.street}</p>
+            }
+          
         
-      <Skeleton variant="rectangular" width="100%" height="80px" />
+         </Box>
+      <Box className='simple2'>  
+      {Loading? <Skeleton variant='text'
+      width="100%"
+      height="250px"
+      /> :
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.</p>
+    }
+   
  </Box>  
    </Box>
  
@@ -92,21 +116,31 @@ export default function ControlledAccordions() {
       
           <Box className='tap'>
             <Box className='tap1'>
-            <Box sx={{ width: 200 }}>
+            <Box >
     
-    <Skeleton animation="wave" />
+            {Loading ?     <Skeleton variant="text" 
+            width={250}
+            height={25}
+            />  :
+         
+  <p>{item.address.suite}</p>
+        }
         </Box>
           </Box>
           <Box>
-          <Skeleton variant="circular" width={40} height={40} />
+          <Button>pending</Button>
           </Box>
           </Box>
          
       <Box className='Nama'>
-      <Box sx={{ width: 200 }}>
-    
-    <Skeleton animation="wave" />
-        </Box>
+      
+      {Loading ?     <Skeleton variant="circular" 
+            width={40}
+            height={40}
+            />  :
+          <p>{item.address.zipcode}</p>
+          
+          }
       </Box>
   
         </AccordionSummary>
@@ -116,7 +150,7 @@ export default function ControlledAccordions() {
        <Box className='sim1'> ABOUT</Box>
       <Box className='sim2'>  
         
-      <Skeleton variant="rectangular" width="100%" height="80px" />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
  </Box>  
    </Box>
    <Box className='link'> 
