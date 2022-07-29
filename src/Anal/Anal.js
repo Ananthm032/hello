@@ -1,11 +1,13 @@
-import React from 'react'
+
+
 import { Box } from '@mui/material'
 import ArticleIcon from '@mui/icons-material/Article'; 
 import StopIcon from '@mui/icons-material/Stop';
-import Band from "../Band/Band"
+
 import {Link} from "react-router-dom"
 import "./anal.css"
 function Anal() {
+ 
   return (
     <div className='contain'>
         <section class="anal">
@@ -17,13 +19,12 @@ function Anal() {
              
             </Box>
             <Box className='arout'>
-            <Link to="/"  style={{textDecoration:'none'}}><Box className='acon'><StopIcon/><p>ForReview</p></Box></Link>
-            <Link to="/verified"  style={{textDecoration:'none'}}><Box className='acon'><StopIcon/><p>Verified</p></Box></Link>
-            <Link to="/rejected"  style={{textDecoration:'none'}}><Box className='acon'><StopIcon/><p>Rejected</p></Box></Link>
-            <Link to="/analytic"  style={{textDecoration:'none'}}><Box className='acon'><StopIcon/><p>Ananlytic</p></Box></Link>
+            <Box ><a href='/' target='-blank' style={{textDecoration:'none',cursor:'pointer',color:'black'}} className='icon'><StopIcon/><p>ForReview</p></a></Box> 
+           <Box className='acon'  style={{cursor:'pointer'}}><StopIcon/><p>Ananlytic</p></Box>
             </Box>
     </section>
     <section>
+
         <h1>Ananlaytic</h1>
     </section>
  

@@ -1,23 +1,32 @@
-import "./App.css"
-import React from "react";
-import Rejected from "./Rejected/Rejected"
+import { useContext } from 'react'
+import Rejected from './Rejected/Rejected';
 import Verified from "./Verified/Verified"
-import Forreview from "./Forreview/Forreview";
-import Ananlytic from "./Ananlaytic/Ananlytic";
-import { Route, Routes} from "react-router-dom"
+import { pagesMapping, RoutingContext } from './Context/Routing'
+import Anal from "./Anal/Anal"
+import './App.css';
+
+import Forreview from './Forreview/Forreview';
+import { Route, Routes } from 'react-router-dom';
+import Ananlytic from './Ananlaytic/Ananlytic';
+
 function App() {
- 
+  const { page } = useContext(RoutingContext)
+
   return (
-    <div className="App">
-<Routes>
- 
- 
-<Route path="/" element={<Forreview/>}></Route>
-<Route path="/verified" element={<Verified/>}></Route>
-<Route path="/rejected" element={<Rejected/>}></Route>
-<Route path="/analytic" element={<Ananlytic/>}/>
-</Routes>
-    </div>
+    <>
+     <div>
+      {(pagesMapping.sidebar === page) && <Forreview />}
+      {(pagesMapping.largeside === page) && <Verified />}
+      {(pagesMapping.mini=== page) && <Rejected />}
+      </div>
+      <div>
+      <Routes>
+        <Route path="/" element={<Forreview/>}/>
+       <Route path='/analytic' element={<Ananlytic/>}></Route>
+     </Routes>
+     </div>
+    </>
+   
   );
 }
 

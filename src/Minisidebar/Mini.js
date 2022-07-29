@@ -1,4 +1,6 @@
-import React from 'react'
+import { useContext } from 'react'
+
+import { RoutingContext, pagesMapping } from '../Context/Routing'
 import "./mini.css"
 import { Box } from '@mui/material'
 import ArticleIcon from '@mui/icons-material/Article'; 
@@ -6,6 +8,7 @@ import Details from "../Details/Details"
 import StopIcon from '@mui/icons-material/Stop';
 import {Link} from "react-router-dom"
 function Minisidebar() {
+  const { setPage } = useContext(RoutingContext)
   return (
     <div className="flex-contain">
          <section class="me">
@@ -16,10 +19,11 @@ function Minisidebar() {
               <p>Creater's Application</p>
             </Box>
             <Box className='route'>
-            <Link to="/"  style={{textDecoration:'none'}}><Box className='ico'><StopIcon/><p>ForReview</p></Box></Link>
-            <Link to="/verified"  style={{textDecoration:'none'}}><Box className='ico'><StopIcon/><p>Verified</p></Box></Link>
-            <Link to="/rejected"  style={{textDecoration:'none'}}><Box className='icon'><StopIcon/><p>Rejected</p></Box></Link>
-            <Link to="/analytic"  style={{textDecoration:'none'}}><Box className='ico'><StopIcon/><p>Ananlytic</p></Box></Link>
+       
+        <Box className='icon' onClick={() => setPage(pagesMapping.sidebar)} style={{cursor:'pointer'}}><StopIcon/><p>Rejected</p></Box>
+      
+      
+        <Box ><a href='/analytic' target='-blank' style={{textDecoration:'none',color:'black'}} className='icon'><StopIcon/><p>Ananlaytic</p></a></Box> 
             </Box>
     </section>
  
@@ -27,15 +31,15 @@ function Minisidebar() {
     <section class="conte">
      
     <Box className='mi'>
-     <Link to="/"  style={{width:'100%',textDecoration:'none'}}><Box   className='mi1'>
+   <Box className='mi1'  style={{width:'100%',textDecoration:'none',cursor:'pointer'}} onClick={() => setPage(pagesMapping.sidebar)} >
         <p>ForReview</p>
-     </Box></Link>
-     <Link  to="/verified"  style={{width:'100%',textDecoration:'none'}}><Box className='mi2'>
+     </Box>
+   <Box className='mi2' style={{width:'100%',textDecoration:'none',cursor:'pointer'}} onClick={() => setPage(pagesMapping.largeside)}>
      <p>Verified</p>
-     </Box></Link>
-     <Link  to="/rejected"  style={{width:'100%',textDecoration:'none'}}> <Box className='mi3'>
+     </Box>
+   <Box className='mi3' style={{width:'100%',textDecoration:'none',cursor:'pointer'}}>
      <p>Rejected</p>
-     </Box></Link>
+     </Box>
      </Box>
      <Box>
        <Details/>

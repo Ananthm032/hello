@@ -51,7 +51,7 @@ export default function ControlledAccordions() {
    
           </Box>
           <Box>
-           <Skeleton variant="circular" width={40} height={40} />
+          <Skeleton variant="circular" width={40} height={40} />
           </Box>
           </Box>
          
@@ -71,7 +71,7 @@ export default function ControlledAccordions() {
        <Box className='simple1'> ABOUT</Box>
       <Box className='simple2'>  
         
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+      <Skeleton variant="rectangular" width="100%" height="80px" />
  </Box>  
    </Box>
  
@@ -116,7 +116,7 @@ export default function ControlledAccordions() {
        <Box className='sim1'> ABOUT</Box>
       <Box className='sim2'>  
         
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+      <Skeleton variant="rectangular" width="100%" height="80px" />
  </Box>  
    </Box>
    <Box className='link'> 
