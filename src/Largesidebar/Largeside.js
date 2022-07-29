@@ -7,6 +7,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 import Content from "../Content/Content"
 
 import StopIcon from '@mui/icons-material/Stop';
+import { Link } from 'react-router-dom';
 function Largeside() {
    const { setPage } = useContext(RoutingContext)
   return (
@@ -23,7 +24,7 @@ function Largeside() {
          <Box className='ico' onClick={() => setPage(pagesMapping.mini)} style={{cursor:'pointer'}}><StopIcon/><p>Verified</p></Box>
          
        
-         <Box ><a href='/analytic' target='-blank' style={{textDecoration:'none',color:'black'}} className='ico'><StopIcon/><p>Ananlaytic</p></a></Box> 
+         <Box ><a href='/analytic'  style={{textDecoration:'none',color:'black'}} className='ico'><StopIcon/><p>Ananlaytic</p></a></Box> 
             </Box>
     </section>
  

@@ -22,7 +22,7 @@ function Sidebar() {
             <Box className='router'>
            <Box className='icon'  onClick={() => setPage(pagesMapping.largeside)} style={{cursor:'pointer'}}><StopIcon/><p>ForReview</p></Box>
          
-          <Box ><a href='/analytic' target='-blank' style={{textDecoration:'none',color:'black'}} className='icon'><StopIcon/><p>Ananlaytic</p></a></Box> 
+          <Box ><a href="/analytic" style={{textDecoration:'none',color:'black'}} className='icon'><StopIcon/><p>Ananlaytic</p></a></Box> 
         
             </Box>
     </section>
