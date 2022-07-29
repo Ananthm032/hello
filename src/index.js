@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Ape from './Ape';
 
 import reportWebVitals from './reportWebVitals';
 import Router from './Context/Routing'
@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode> 
     <BrowserRouter>
     <Router>
-      <App />
+      <Ape />
     </Router>
     </BrowserRouter>
   </React.StrictMode>,

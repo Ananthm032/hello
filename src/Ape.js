@@ -2,11 +2,10 @@ import { useContext } from 'react'
 import Rejected from './Rejected/Rejected';
 import Verified from "./Verified/Verified"
 import { pagesMapping, RoutingContext } from './Context/Routing'
-import './App.css';
 import Forreview from './Forreview/Forreview';
 import { Route, Routes } from 'react-router-dom';
 import Ananlytic from './Ananlaytic/Ananlytic';
-function App() {
+function Ape() {
   const { page } = useContext(RoutingContext)
 
   return (
@@ -20,9 +19,13 @@ function App() {
        
       </Route></Routes>
     
+
+      
+      
+
     </>
    
   );
 }
 
-export default App;
+export default Ape;
