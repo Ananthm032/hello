@@ -12,21 +12,16 @@ function Minisidebar() {
   return (
     <div className="flex-contain">
          <section class="me">
-            <Box className='lo'>
-             
-               <p><ArticleIcon/></p> 
-          
-              <p>Creater's Application</p>
-            </Box>
-            <Box className='route'>
-       
-        <Box className='icon' onClick={() => setPage(pagesMapping.sidebar)} style={{cursor:'pointer'}}><StopIcon/><p>Rejected</p></Box>
-      
-      
-        <Box ><a href='/analytic' style={{textDecoration:'none',color:'black'}} className='icon'><StopIcon/><p>Ananlaytic</p></a></Box> 
-            </Box>
-    </section>
+                     
+<div class="dropdown">
+  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-content">
+  <a href="/"><StopIcon/>Home</a>
+  <a href="/analytic"><StopIcon/>Analytic</a>
  
+  </div>
+</div>
+ </section>
    
     <section class="conte">
      

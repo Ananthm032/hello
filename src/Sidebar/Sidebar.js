@@ -5,30 +5,24 @@ import { Box } from '@mui/material'
 import ArticleIcon from '@mui/icons-material/Article'; 
 import StopIcon from '@mui/icons-material/Stop';
 import Band from "../Band/Band"
-import {Link} from "react-router-dom"
+
 
 function Sidebar() {
-  const { setPage } = useContext(RoutingContext)
-  return (
+  const{ setPage } = useContext(RoutingContext);
+return (
     <div className="flex-container">
-         <section class="menu">
-            <Box className='logo'>
-             
-               <p><ArticleIcon/></p> 
-          
-              <p>Creater's Application</p>
-             
-            </Box>
-            <Box className='router'>
-           <Box className='icon'  onClick={() => setPage(pagesMapping.largeside)} style={{cursor:'pointer'}}><StopIcon/><p>ForReview</p></Box>
-         
-          <Box ><a href="/analytic" style={{textDecoration:'none',color:'black'}} className='icon'><StopIcon/><p>Ananlaytic</p></a></Box> 
-        
-            </Box>
-    </section>
-    
+      
+ <section class="menu">
+            
+<div class="dropdown">
+  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-content">
+  <a href="/"><StopIcon/>Home</a>
+  <a href="/analytic"><StopIcon/>Analytic</a>
  
-   
+  </div>
+</div>
+    </section>
     <section class="content">
      
         <Box className='mini'>

@@ -13,19 +13,14 @@ function Largeside() {
   return (
     <div className="flex-containe">
          <section class="men">
-            <Box className='log'>
-             
-               <p><ArticleIcon/></p> 
-          
-              <p>Creater's Application</p>
-            </Box>
-            <Box className='route'>
-         
-         <Box className='ico' onClick={() => setPage(pagesMapping.mini)} style={{cursor:'pointer'}}><StopIcon/><p>Verified</p></Box>
-         
-       
-         <Box ><a href='/analytic'  style={{textDecoration:'none',color:'black'}} className='ico'><StopIcon/><p>Ananlaytic</p></a></Box> 
-            </Box>
+         <div class="dropdown">
+  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-content">
+  <a href="/"><StopIcon/>Home</a>
+  <a href="/analytic"><StopIcon/>Analytic</a>
+ 
+  </div>
+</div>
     </section>
  
    

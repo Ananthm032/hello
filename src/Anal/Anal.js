@@ -11,17 +11,14 @@ function Anal() {
   return (
     <div className='contain'>
         <section class="anal">
-            <Box className='ango'>
-             
-               <p><ArticleIcon/></p> 
-          
-              <p>Creater's Application</p>
-             
-            </Box>
-            <Box className='arout'>
-            <Box ><a href='/' style={{textDecoration:'none',cursor:'pointer',color:'black'}} className='icon'><StopIcon/><p>ForReview</p></a></Box> 
-           <Box className='acon'  style={{cursor:'pointer'}}><StopIcon/><p>Ananlytic</p></Box>
-            </Box>
+        <div class="dropdown">
+  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-content">
+  <a href="/"><StopIcon/>Home</a>
+  <a href="/analytic"><StopIcon/>Analytic</a>
+ 
+  </div>
+</div>
     </section>
     <section>
 
