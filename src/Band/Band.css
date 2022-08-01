@@ -235,5 +235,29 @@ font-family: monospace;
    }
   .hiii{
     width: 100%;
-    height: 73vh;
+    height:73vh
   }
+  .top1 .sk{
+    width: 250px;
+    height: 25px;
+  }
+  .tap1 .sk1{
+    width: 250px;
+    height: 25px;
+  }
+ @media  screen and (max-width:420px) {
+    .tap button{
+    padding: 3px 6px;
+    }
+    .top button{
+        padding: 3px 6px;
+    }
+    .top1 .sk{
+     width:100px ;
+     height: 25px;
+    }
+    .tap1 .sk1{
+        width: 100px;
+        height: 25px;
+      }
+ }

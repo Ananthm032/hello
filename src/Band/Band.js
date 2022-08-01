@@ -49,9 +49,8 @@ export default function ControlledAccordions() {
         
             <Box className='top1'>
           
-            {Loading ?     <Skeleton variant="text" 
-            width={250}
-            height={25}
+            {Loading ?     <Skeleton className='sk' 
+          
             />  :
           <p>{item.name}</p>
             }
@@ -118,9 +117,8 @@ export default function ControlledAccordions() {
             <Box className='tap1'>
             <Box >
     
-            {Loading ?     <Skeleton variant="text" 
-            width={250}
-            height={25}
+            {Loading ?     <Skeleton variant="text" className='sk1'
+         
             />  :
          
   <p>{item.address.suite}</p>

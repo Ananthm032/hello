@@ -14,8 +14,8 @@ function Minisidebar() {
          <section class="me">
                      
 <div class="dropdown">
-  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
-  <div class="dropdown-content">
+  <button><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-con">
   <a href="/"><StopIcon/>Home</a>
   <a href="/analytic"><StopIcon/>Analytic</a>
  

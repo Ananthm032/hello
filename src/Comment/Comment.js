@@ -55,7 +55,7 @@ export default function KeepMountedModal() {
         </form>
        
           <Typography id="keep-mounted-modal-description" sx={{ mt: 50, alignContent:"center",justifyContent:"center"}}>
-      <Link to="/rejected" element={<Rejected/>}>
+      <Link to="/" element={<Rejected/>}>
         <h3 className='h3' style={{textDecoration:'none'}}>Submit</h3>
         </Link>
           </Typography>

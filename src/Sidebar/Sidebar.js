@@ -15,8 +15,8 @@ return (
  <section class="menu">
             
 <div class="dropdown">
-  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
-  <div class="dropdown-content">
+  <button ><ArticleIcon />Creater's Application</button>
+  <div class="dropdown-cont">
   <a href="/"><StopIcon/>Home</a>
   <a href="/analytic"><StopIcon/>Analytic</a>
  

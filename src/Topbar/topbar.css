@@ -21,3 +21,15 @@
     font-size: 20px;
     
   }
+ @media screen and (max-width:840px) {
+  
+.header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid  #DBDBDB;
+  background-color: #db9a9a;
+}
+ }

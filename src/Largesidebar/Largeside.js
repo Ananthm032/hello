@@ -14,11 +14,12 @@ function Largeside() {
     <div className="flex-containe">
          <section class="men">
          <div class="dropdown">
-  <button class="dropbtn"><ArticleIcon />Creater's Application</button>
+  <button><ArticleIcon />Creater's Application</button>
   <div class="dropdown-content">
   <a href="/"><StopIcon/>Home</a>
   <a href="/analytic"><StopIcon/>Analytic</a>
- 
+   
+
   </div>
 </div>
     </section>
