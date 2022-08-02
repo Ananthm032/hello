@@ -32,7 +32,8 @@ flex-direction: column;
 
 .mi1 p{
   display: flex;
-  color: #F1A240; 
+  color: #8C93A3;;
+   
   font-family: monospace;
   font-style: normal;
   font-weight: 500;
@@ -50,7 +51,8 @@ flex-direction: column;
 }
 .mi2 p{
   display: flex;
-  color: #F1A240; 
+  color:  #8C93A3;;
+   
   font-family: monospace;
   font-style: normal;
   font-weight: 500;
@@ -187,14 +189,14 @@ justify-content: center;
  }
  .mi1 p{
 margin-top:-2px ;
-color: #F1A240;
+color:  #8C93A3;;
  }
  .mi2{
   height: 30px;
   }
   .mi2 p{
     margin-top:-2px ;
-    color: #F1A240;
+    color:  #8C93A3;;
      }
   .mi3{
     height: 30px;

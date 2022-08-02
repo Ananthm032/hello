@@ -56,7 +56,8 @@
   }
   .mini2 p{
     display: flex;
-    color: #F1A240; 
+    color: #8C93A3;;
+   
     font-family: monospace;
     font-style: normal;
     font-weight: 500;
@@ -73,7 +74,8 @@
   }
   .mini3 p{
     display: flex;
-    color: #F1A240; 
+    color: #8C93A3;;
+   
     font-family: monospace;
     font-style: normal;
     font-weight: 500;
@@ -143,11 +145,7 @@
      flex-basis: 0px;
     
     }
-     .content{
   
-   border-left: 2px solid rgb(255, 2, 2);
-  
-     }
     .nav{
      display: block;
       cursor: pointer;
@@ -207,14 +205,14 @@ color: #F1A240;
   }
   .mini2 p{
     margin-top:-2px ;
-    color: #F1A240;
+    color: #8C93A3;;
      }
   .mini3{
     height: 30px;
     }
     .mini3 p{
       margin-top:-2px ;
-      color: #F1A240;
+      color: #8C93A3;;
        }
 }
   
