@@ -143,6 +143,11 @@
      flex-basis: 0px;
     
     }
+     .content{
+  
+   border-left: 2px solid rgb(255, 2, 2);
+  
+     }
     .nav{
      display: block;
       cursor: pointer;
