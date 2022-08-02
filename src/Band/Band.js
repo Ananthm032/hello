@@ -58,7 +58,16 @@ export default function ControlledAccordions() {
            </Box>
         
           <Box>
-<Button>pending</Button>
+
+  
+{Loading ?     <Skeleton variant='text'
+
+          width={100}
+          height={15}
+          />  :
+          <Button>  pending</Button>
+          }
+
           </Box>
           </Box>
          
@@ -126,7 +135,15 @@ export default function ControlledAccordions() {
         </Box>
           </Box>
           <Box>
-          <Button>pending</Button>
+           
+{Loading ?     <Skeleton variant='text'
+
+width={100}
+height={15}
+/>  :
+<Button>  pending</Button>
+}
+
           </Box>
           </Box>
          

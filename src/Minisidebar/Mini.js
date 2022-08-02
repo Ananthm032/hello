@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-
+import Img3 from "../Images/navbar.png"
 import { RoutingContext, pagesMapping } from '../Context/Routing'
 import "./mini.css"
 import { Box } from '@mui/material'
@@ -13,12 +13,14 @@ function Minisidebar() {
     <div className="flex-contain">
          <section class="me">
                      
-<div class="dropdown">
+<div class="dropdo">
+   <img  className='na' src={Img3} alt='' />
   <button><ArticleIcon />Creater's Application</button>
-  <div class="dropdown-con">
+  <div className="dropdown-co">
+  <p><ArticleIcon />Creater's Application</p>
   <a href="/"><StopIcon/>Home</a>
   <a href="/analytic"><StopIcon/>Analytic</a>
- 
+
   </div>
 </div>
  </section>

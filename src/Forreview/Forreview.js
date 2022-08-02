@@ -1,9 +1,10 @@
 import React from 'react'
 import Topbar from '../Topbar/Topbar'
 import Sidebar from "../Sidebar/Sidebar"
+
 function Forreview() {
   return (
-    <div>
+    <div className='review'>
    
         <Topbar/>
        <Sidebar/>

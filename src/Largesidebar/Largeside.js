@@ -5,7 +5,7 @@ import "./largeside.css"
 import { Box } from '@mui/material'
 import ArticleIcon from '@mui/icons-material/Article'; 
 import Content from "../Content/Content"
-
+import Img3 from "../Images/navbar.png"
 import StopIcon from '@mui/icons-material/Stop';
 import { Link } from 'react-router-dom';
 function Largeside() {
@@ -14,8 +14,10 @@ function Largeside() {
     <div className="flex-containe">
          <section class="men">
          <div class="dropdown">
-  <button><ArticleIcon />Creater's Application</button>
+          <img className='nam' src={Img3} alt='' />
+   <button><ArticleIcon />Creater's Application</button>
   <div class="dropdown-content">
+  <p><ArticleIcon />Creater's Application</p>
   <a href="/"><StopIcon/>Home</a>
   <a href="/analytic"><StopIcon/>Analytic</a>
    

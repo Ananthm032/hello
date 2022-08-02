@@ -10,25 +10,7 @@
     display: flex;
     flex-direction: row;
   }
-  .log{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #FFF8D7;
-    opacity: 0.5;
-    height: 72px;
-    width: 250px;
-  
-  }
-  .log p{
-    font-family:sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: #F1A240;
-    align-items: center;
-    justify-content: center;
-  }
+
   .conten{
    
    width: 100%;
@@ -102,19 +84,8 @@
     justify-content: flex-start
    
   }
-  .route p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-   line-height: 10px;
+ 
   
-   
-  }
-  .ico{
-    display: flex;
-    align-items: center;
-   
-  }
   .dropdown button {
     display: flex;
     width: 250px;
@@ -162,36 +133,55 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .nam{
+    display: none;
+  }
+  .dropdown-content p{
+    display: none;
+  }
   @media screen and (max-width:840px) {
-    .men {
-      display: flex;
-      flex-basis: 72px;
-      width: 100%;
-      background: #ffffff;
+    .men{
+     display: flex;
+     width: 100%;
+     flex-basis: 0px;
     
     }
-    .flex-containe{
-      display: flex;
-      flex-direction:column;
-    }
-    .dropdown button {
-    
-      display: flex;
-      width: 100%;
-      height: 72px;
-      background: #FFF8D7;
-      opacity: 0.5;
-      font-family:sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
-      color: #F1A240;
-      align-items: center;
-      justify-content: center;
+    .nam{
+     display: block;
       cursor: pointer;
-      border: transparent;
+      width: 30px;
+      height: 30px;
+      margin-left: 90%;
     }
-    
-
-
+   .flex-containe{
+    display: flex;
+    flex-direction: column;
+   }
+  .dropdown button{
+   display: none;
+  }
+  .dropdown-content p{
+  display: flex;
+  margin-top: -20px;
+  font-family:sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F1A240;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: transparent;
+   height: 72px;
+  background: #FFF8D7;
+  
+  }
+  .dropdown-content {
+  width: 100%;
+  height: 89vh;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: center;
+  
+  }
   }
