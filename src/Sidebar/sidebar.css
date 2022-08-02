@@ -8,49 +8,11 @@
   
   
   }
-  .router{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start
-   
-  }
-  .router p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-   line-height: 10px;
   
-   
-  }
-  .icon{
-    display: flex;
-    align-items: center;
-   
-  }
   .flex-container{
     display: flex;
     flex-direction:row;
    
-  }
-  .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #FFF8D7;
-    opacity: 0.5;
-    height: 72px;
-    width: 250px;
-  
-  }
-  .logo p{
-    font-family:sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: #F1A240;
-    align-items: center;
-    justify-content: center;
   }
   
 .content{
@@ -219,4 +181,35 @@
   justify-content: center;
  
  }
+ .mini{
+  display: flex;
+  flex-direction: column;
+ 
+  
+ }
+ .mini1{
+ height: 30px;
+ 
+ width: 100%;
+ 
+ }
+ .mini1 p{
+margin-top:-2px ;
+color: #F1A240;
+ }
+ .mini2{
+  height: 30px;
+  }
+  .mini2 p{
+    margin-top:-2px ;
+    color: #F1A240;
+     }
+  .mini3{
+    height: 30px;
+    }
+    .mini3 p{
+      margin-top:-2px ;
+      color: #F1A240;
+       }
 }
+  

@@ -77,14 +77,6 @@
     align-items: center;
     justify-content: space-around;
   }
-  .route{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start
-   
-  }
- 
   
   .dropdown button {
     display: flex;
@@ -184,4 +176,36 @@
   justify-content: center;
   
   }
+  
+   .min{
+    display: flex;
+    flex-direction: column;
+   
+    
+   }
+   .min1{
+   height: 30px;
+   
+   width: 100%;
+   
+   }
+   .min1 p{
+  margin-top:-2px ;
+  color: #F1A240;
+   }
+   .min2{
+    height: 30px;
+    }
+    .min2 p{
+      margin-top:-2px ;
+      color: #F1A240;
+       }
+    .min3{
+      height: 30px;
+      }
+      .min3 p{
+        margin-top:-2px ;
+        color: #F1A240;
+         }
   }
+  

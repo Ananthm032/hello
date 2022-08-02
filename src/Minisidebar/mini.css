@@ -173,4 +173,34 @@ align-items: center;
 justify-content: center;
 
 }
+.mi{
+  display: flex;
+  flex-direction: column;
+ 
+  
+ }
+ .mi1{
+ height: 30px;
+ 
+ width: 100%;
+ 
+ }
+ .mi1 p{
+margin-top:-2px ;
+color: #F1A240;
+ }
+ .mi2{
+  height: 30px;
+  }
+  .mi2 p{
+    margin-top:-2px ;
+    color: #F1A240;
+     }
+  .mi3{
+    height: 30px;
+    }
+    .mi3 p{
+      margin-top:-2px ;
+      color: #F1A240;
+       }
 }
