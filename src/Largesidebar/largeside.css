@@ -217,4 +217,15 @@
         color:  #8C93A3;;
          }
   }
-  
+  @media screen and (max-width:600px){
+    .conten{
+      width: 85%;
+      height: 100vh;
+    }
+  }
+  @media screen and (max-width:450px) {
+    .conten{
+      width: 80%;
+      height: 100vh;
+    }
+  }
