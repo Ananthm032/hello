@@ -140,6 +140,11 @@
      flex-basis: 0px;
     
     }
+    .conten{
+      margin-left: 80px;
+      width:90%;
+      height: 100vh;
+    }
     .nam{
      display: block;
       cursor: pointer;

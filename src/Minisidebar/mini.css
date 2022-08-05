@@ -137,6 +137,12 @@ flex-direction: column;
    flex-basis: 0px;
   
   }
+  .conte{
+   
+      margin-left: 80px;
+      width:90%;
+   height: 100vh;
+  }
   .na{
    display: block;
     cursor: pointer;

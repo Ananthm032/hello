@@ -1,148 +1,23 @@
 
-  .anal {
-    display: flex;
-    flex-basis: 250px;
-    width: 100%;
-    height: 86vh;
-    background: #FFFFFF;
-    flex-direction: column;
-    border-right: 2px solid lightgrey;
+ .tic{
+  width: 100%;
+  height: 86vh;
+  overflow: hidden;
+  overflow-y: scroll;
+ 
+ }
+ @media screen and (max-width:600px){
+  .tic{
+    height: 80vh;;
+    margin-left: 5%;
+    width: 90%;
+  }
+ }
+ @media screen and (max-width:450px) {
+  .tic{
   
-  }
-
-  .contain{
-    display: flex;
-    flex-direction: row;
-  }
-  .drop button{
-    display: flex;
-    width: 250px;
-    height: 72px;
-    background: #FFF8D7;
-    opacity: 0.5;
-    font-family:sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: #F1A240;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: transparent;
-  }
-  
-  .drop {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .drop-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .drop-content a {
-    color: black;
-    padding: 16px 76px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  .drop-content a:hover {background-color: #f1f1f1}
-  
-  .drop:hover .drop-content {
-    display: block;
-  }
-  .drop-content p{
-    display: none;
-  }
-  .name{
-    display: none;
-  }
-  @media screen and (max-width:840px) {
-    .anal{
-     display: flex;
-     width: 100%;
-     flex-basis: 0px;
-    
-    }
-    .name{
-     display: block;
-      cursor: pointer;
-      width: 30px;
-      height: 30px;
-      margin-left: 90%;
-    }
-   .contain{
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
+    overflow-x: scroll;
+   overflow-y: scroll;
    }
-  .drop button{
-   display: none;
-  }
-  .drop-content p{
-  display: flex;
- margin-top: -15px;
-  font-family:sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  color: #F1A240;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border: transparent;
-   height: 72px;
-   background: #FFF8D7;
-   opacity: 1;
-  width: 100%;
-  }
-  .drop-content {
-  width: 100%;
-  height: 89vh;
-  margin-top: -20px;
-  align-items: center;
-  justify-content: center;
-  
-  }
-  
-  .tic h1{
-  margin-left: 22vh;
-  margin-top: 37%;
-  font-size:52px;
-  color: blue;
-  font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  }
-  @media screen and (max-width:430px){
-    .tic h1{
-    display: flex;
-    margin-top: 32vh;
-    margin-left:12vh;
-      font-size:34px;
-      color: rgb(243, 27, 211);
-      font-weight: bolder;
-      font-family:sans-serif;
-      }
-  }
-  @media screen and (max-width:330px){
-    .tic h1{
-      display: flex;
-      margin-top: 22vh;
-      margin-left:6vh;
-        font-size:34px;
-        color: rgb(47, 86, 39);
-        font-weight: bolder;
-        font-family:sans-serif;
-        }
-  }
+ }

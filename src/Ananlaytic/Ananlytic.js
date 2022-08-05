@@ -1,15 +1,15 @@
 import React from 'react'
-import "./analytic.css"
-import Topbar from '../Topbar/Topbar'
 import Anal from '../Anal/Anal'
+import Header from '../SSide'
+import Topbar from '../Topbar/Topbar'
 
 function Ananlytic() {
   return (
-    <div>
-    <Topbar/>
-   <Anal/>
-   
-    </div>
+	<div>
+		<Topbar/>
+    	<Anal/>
+ 
+	</div>
   )
 }
 

@@ -25,7 +25,7 @@
   
 .header {
   display: flex;
-  height: 80px;
+  height: 100px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -33,3 +33,11 @@
   background-color: #db9a9a;
 }
  }
+@media screen and (max-width:450px) {
+  .header {
+   
+    height: 130px;
+    width: 100%;
+   
+  }
+}

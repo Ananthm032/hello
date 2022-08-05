@@ -7,22 +7,13 @@ import ArticleIcon from '@mui/icons-material/Article';
 import Details from "../Details/Details"
 import StopIcon from '@mui/icons-material/Stop';
 import {Link} from "react-router-dom"
+import Header from '../SSide'
 function Minisidebar() {
   const { setPage } = useContext(RoutingContext)
   return (
     <div className="flex-contain">
          <section class="me">
-                     
-<div class="dropdo">
-   <img  className='na' src={Img3} alt='' />
-  <button><ArticleIcon />Creater's Application</button>
-  <div className="dropdown-co">
-  <p><ArticleIcon />Creater's Application</p>
-  <a href="/"><StopIcon/>Home</a>
-  <a href="/analytic"><StopIcon/>Analytic</a>
-
-  </div>
-</div>
+ <Header/>
  </section>
    
     <section class="conte">
