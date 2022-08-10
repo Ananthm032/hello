@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import './LineChart.css';
-
+import {get} from "lodash"
 const LineChart = () => {
-
+	console.log(get({},'asdasd','asdasd'))
 	const d3Chart = useRef()
 
 	const parseDate = d3.timeParse('%Y-%m-%d')
@@ -92,7 +92,7 @@ const LineChart = () => {
 					.attr('text-anchor', 'middle')
 					.attr('font-size', '16px')
 					.attr('fill','white')
-					.text('New York City')
+					.text('New York City-Population')
 			})
 	},[])
 

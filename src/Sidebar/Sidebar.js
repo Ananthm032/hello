@@ -8,8 +8,12 @@ import Band from "../Band/Band"
 import Img3 from "../Images/navbar.png"
 import BarChartIcon from '@mui/icons-material/BarChart';
 import Header from '../SSide';
+
 function Sidebar() {
   const{ setPage } = useContext(RoutingContext);
+
+  
+
 return (
     <div className="flex-container">
       

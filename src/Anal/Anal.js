@@ -16,8 +16,9 @@ function Anal() {
 
     </section>
  
-   
+  
     <section class="tic">
+    
      <LineChart/>
   <Pie/>
  </section>

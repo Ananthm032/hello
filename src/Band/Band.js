@@ -4,14 +4,13 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Box, Button} from '@mui/material';
-
 import Skeleton from '@mui/material/Skeleton';
 import Comment from "../Comment/Comment"
 import "./Band.css"
 export default function ControlledAccordions() {
     const [expanded, setExpanded] = React.useState(false);
 
-    const handleChange = (panel) => (event, isExpanded) => {
+     const handleChange = (panel) => (event, isExpanded) => {
       setExpanded(isExpanded ? panel : false);
     };
     const [data, setData] = useState([]);
@@ -27,7 +26,7 @@ export default function ControlledAccordions() {
         SetLoading(false);
       },5000)
       })();
-    }, []);
+    }, [3]);
   
 
   return (
@@ -51,10 +50,10 @@ export default function ControlledAccordions() {
           
             {Loading ?     <Skeleton className='sk' 
           
-            />  :
-          <p>{item.name}</p>
-            }
-          
+          />  :
+        <p>{item.name}</p>
+          }
+        
            </Box>
         
           <Box>

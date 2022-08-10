@@ -22,14 +22,10 @@ import "./SSise.css"
 
 
 const Header = () => {
-  
-  
+   
     const [menuCollapse, setMenuCollapse] = useState(true)
-
-  
-  const menuIconClick = () => {
- 
-    menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
+    const menuIconClick = () => {
+     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
 
   return (
@@ -56,9 +52,11 @@ const Header = () => {
           </SidebarHeader>
           <SidebarContent>
             <Menu iconShape="square">
-             <MenuItem active={true} icon={<AccessibilityNewIcon />} className='icon'>
+         
+         <MenuItem  icon={<AccessibilityNewIcon />} className='icon'>
             <a href="/">   Home</a>
               </MenuItem>
+              
             <MenuItem icon={<BarChartIcon />} className='icon'>  <a href="/analytic">Analytic</a></MenuItem>
               <MenuItem icon={<ArchitectureIcon/>} className='icon'>Favourite</MenuItem>
               <MenuItem icon={<ElectricBoltIcon />}className='icon'>Author</MenuItem>
@@ -77,4 +75,3 @@ const Header = () => {
 };
 
 export default Header;
-
