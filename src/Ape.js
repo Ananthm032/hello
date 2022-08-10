@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import {get} from "lodash"
+
 import Rejected from './Rejected/Rejected';
 import Verified from "./Verified/Verified"
 import { pagesMapping, RoutingContext } from './Context/Routing'
@@ -10,7 +10,7 @@ import Ananlytic from './Ananlaytic/Ananlytic';
 function Ape() {
   const { page } = useContext(RoutingContext)
   
-  console.log(get({},'asdasd','asdasd'))
+  
   return (
     <>
  

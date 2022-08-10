@@ -2,11 +2,9 @@ import { useContext } from 'react'
 import { RoutingContext, pagesMapping } from "../Context/Routing"
 import "./sidebar.css"
 import { Box } from '@mui/material'
-import ArticleIcon from '@mui/icons-material/Article'; 
-import HomeIcon from '@mui/icons-material/Home';
+
 import Band from "../Band/Band"
-import Img3 from "../Images/navbar.png"
-import BarChartIcon from '@mui/icons-material/BarChart';
+
 import Header from '../SSide';
 
 function Sidebar() {

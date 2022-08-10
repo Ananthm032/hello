@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import "./PieChart.css"
-import {get} from "lodash"
+
 
 const data = [
                 {item: 'A', count: 590},
@@ -9,12 +9,12 @@ const data = [
                 {item: 'C', count: 348},
                 {item: 'D', count: 145},
                 {item: 'E', count: 46},
-				{item: 'F', count: 206},  {item: 'G', count: 106}
+				{item: 'F', count: 206}, 
              ]
 
 
 const Pie = () => {
-	console.log(get({},'asdasd','asdasd'))
+	
 	const pieChart = useRef()
 
 	useEffect(()=>{

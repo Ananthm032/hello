@@ -1,7 +1,7 @@
 import React from 'react'
 import "./topbar.css"
 import Img from "../Images/iyxlogo.png"
-import Img1 from "../Images/147144.png"
+
 import {Box} from "@mui/material"
 function Topbar() {
   return (

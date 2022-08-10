@@ -1,12 +1,11 @@
 import { useContext } from 'react'
-import Img3 from "../Images/navbar.png"
+
 import { RoutingContext, pagesMapping } from '../Context/Routing'
 import "./mini.css"
 import { Box } from '@mui/material'
-import ArticleIcon from '@mui/icons-material/Article'; 
+
 import Details from "../Details/Details"
-import StopIcon from '@mui/icons-material/Stop';
-import {Link} from "react-router-dom"
+
 import Header from '../SSide'
 function Minisidebar() {
   const { setPage } = useContext(RoutingContext)
