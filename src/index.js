@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Ape from './Ape';
 
-import reportWebVitals from './reportWebVitals';
 import Router from './Context/Routing'
 import {BrowserRouter} from "react-router-dom"
 ReactDOM.render(
@@ -16,6 +15,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-reportWebVitals();
