@@ -1,13 +1,4 @@
 
-body{
- 
-    min-height: 100vh;
-    position: absolute;
-    background-color: rgb(81, 81, 81);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .container{
    position: relative;
    width: 500px;
