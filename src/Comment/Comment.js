@@ -7,6 +7,7 @@ import "./comment.css"
 
 import {Link} from "react-router-dom"
 import Rejected from '../Rejected/Rejected';
+import Scroll from '../Component/Style';
 
 
 const style = {
@@ -55,9 +56,7 @@ export default function KeepMountedModal() {
         </form>
        
           <Typography id="keep-mounted-modal-description" sx={{ mt: 50, alignContent:"center",justifyContent:"center"}}>
-      <Link to="/" element={<Rejected/>}>
-        <h3 className='h3' style={{textDecoration:'none'}}>Submit</h3>
-        </Link>
+       <Scroll/>
           </Typography>
          
         </Box>

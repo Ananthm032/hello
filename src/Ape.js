@@ -18,12 +18,14 @@ function Ape() {
       {(pagesMapping.largeside === page) && <Verified />}
       {(pagesMapping.mini=== page) && <Rejected />}
 
-   <Routes>   <Route path='/analytic' element={ <Ananlytic/>}>
+   <Routes>  
+  
+     <Route path='/analytic' element={ <Ananlytic/>}>
        
-      </Route></Routes>
+      </Route>
+      </Routes>
     
      
-      
       
 
     </>

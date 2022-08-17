@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
-
+import {Link, NavLink} from "react-router-dom"
 import BarChartIcon from '@mui/icons-material/BarChart';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
 import FlashOffIcon from '@mui/icons-material/FlashOff';
@@ -19,6 +19,8 @@ import {
 
 import "react-pro-sidebar/dist/css/styles.css";
 import "./SSise.css"
+
+
 
 
 const Header = () => {
@@ -50,18 +52,16 @@ const Header = () => {
               )}
             </div>
           </SidebarHeader>
-          <SidebarContent>
-            <Menu iconShape="square">
-         
-         <MenuItem  icon={<AccessibilityNewIcon />} className='icon'>
-            <a href="/">   Home</a>
-              </MenuItem>
-              
-            <MenuItem icon={<BarChartIcon />} className='icon'>  <a href="/analytic">Analytic</a></MenuItem>
+          <SidebarContent >
+          <Menu iconShape="square">
+
+          <a href="/">  <MenuItem icon={<AccessibilityNewIcon/>} className='icon'> Home</MenuItem></a>
+        
+       <MenuItem icon={<BarChartIcon />} className='icon'>  <a href="/analytic">Analytic</a></MenuItem>
               <MenuItem icon={<ArchitectureIcon/>} className='icon'>Favourite</MenuItem>
               <MenuItem icon={<ElectricBoltIcon />}className='icon'>Author</MenuItem>
               <MenuItem icon={<EngineeringIcon/>}className='icon'>Settings</MenuItem>
-            </Menu>
+</Menu>
           </SidebarContent>
           <SidebarFooter>
             <Menu iconShape="square">

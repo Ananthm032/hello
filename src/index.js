@@ -8,7 +8,7 @@ import {BrowserRouter} from "react-router-dom"
 ReactDOM.render(
   <React.StrictMode> 
     <BrowserRouter>
-    <Router>
+  <Router>
       <Ape />
     </Router>
     </BrowserRouter>
