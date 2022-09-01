@@ -17,12 +17,12 @@
     "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
     "react-loading-skeleton": "^3.1.0",
-    "react-particles-js": "^3.6.0",
     "react-pro-sidebar": "^0.7.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-select": "^5.4.0",
     "source-map-explorer": "^2.5.2",
+    "tsparticles": "^1.43.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
