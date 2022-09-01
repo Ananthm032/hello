@@ -1,0 +1,26 @@
+.sheat{
+    width: 200px;
+    height: 250px;
+    border-radius:4px ;
+    background:rgba(255, 255, 255, 1)
+    
+}
+.btsheat{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 10px;
+   font-size: 18px;
+}
+.coin{
+       
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+ .bat{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+    }

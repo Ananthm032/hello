@@ -58,7 +58,7 @@ const Header = () => {
           <a href="/">  <MenuItem icon={<AccessibilityNewIcon/>} className='icon'> Home</MenuItem></a>
         
        <MenuItem icon={<BarChartIcon />} className='icon'>  <a href="/analytic">Analytic</a></MenuItem>
-              <MenuItem icon={<ArchitectureIcon/>} className='icon'>Favourite</MenuItem>
+              <MenuItem icon={<ArchitectureIcon/>} className='icon'> <a href="/users">Users</a></MenuItem>
               <MenuItem icon={<ElectricBoltIcon />}className='icon'>Author</MenuItem>
               <MenuItem icon={<EngineeringIcon/>}className='icon'>Settings</MenuItem>
 </Menu>

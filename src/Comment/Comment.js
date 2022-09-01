@@ -4,10 +4,11 @@ import Modal from '@mui/material/Modal';
 
 import Typography from '@mui/material/Typography';
 import "./comment.css"
-
+import Scroll from '../Component/Style';
 import {Link} from "react-router-dom"
 import Rejected from '../Rejected/Rejected';
-import Scroll from '../Component/Style';
+
+
 
 
 const style = {
@@ -56,7 +57,7 @@ export default function KeepMountedModal() {
         </form>
        
           <Typography id="keep-mounted-modal-description" sx={{ mt: 50, alignContent:"center",justifyContent:"center"}}>
-       <Scroll/>
+          <Scroll/>
           </Typography>
          
         </Box>

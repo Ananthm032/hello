@@ -1,0 +1,49 @@
+
+ .tac{
+  width: 100%;
+  height: 86.2vh;
+  background: #DBDBDB;
+ }
+ .cat{
+  width:100%;
+  height: 12vh;
+ 
+ }
+.yat{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ margin-right: 20px;
+ margin-left: 20px;
+ }
+ .Id{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
+ }
+.yan{
+display: flex;
+flex-direction: row;
+
+width: 100%;
+height: 60vh;
+
+}
+ @media screen and (max-width:600px){
+  .tac{
+    height: 80vh;;
+    margin-left: 5%;
+    width: 90%;
+  }
+ }
+ @media screen and (max-width:450px) {
+  .tac{
+  
+    overflow: hidden;
+    overflow-x: scroll;
+   overflow-y: scroll;
+   }
+ }

@@ -7,6 +7,7 @@ import "./anal.css"
 import LineChart from "../LineChart";
 import Pie from "../PieChart";
 import Header from "../SSide";
+
 function Anal() {
  
   return (
@@ -21,6 +22,7 @@ function Anal() {
     
      <LineChart/>
   <Pie/>
+ 
  </section>
     </div>
   )
