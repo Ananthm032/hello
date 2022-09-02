@@ -10,7 +10,7 @@ function Card() {
      <Box className="card">
       <Box className='ver'>
         <Box className="lag">
-          <img src={Img5} alt="src"  ></img>
+        <img src={Img5} alt="src" width="100" height="100"  ></img>
         </Box>
         <Button sx={{width:80,height:24,background:'#FFF5CE',borderRadius:40}}><p className='p'>Artist</p></Button>
         <Box className='Creatername'>
@@ -22,11 +22,11 @@ function Card() {
           </Box>
         </Box>
         <Box class="metic">1m Metic valume</Box>
-      </Box>
-      <Box className="bm">
-      <Box class="rating">Ratings:4.8</Box>
-      <Box class="create">Creations:10</Box>
+        <Box className="bm">
+       <Box class="rating">Ratings:4.8</Box>
+       <Box class="create">Creations:10</Box>
         </Box>
+      </Box>
     </Box>
    
     </a>
