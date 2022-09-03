@@ -1,16 +1,41 @@
 .ttp{
-    height: 28vh;
+    height: 33.2vh;
+   
 }
 .botm{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 50vh;
+     height: 42vh;
     
 }
 .address{
    
     width: 100%;
-    height: 86vh;
+    height: 86.2vh;
     background-color:#DBDBDB;
+}
+.lowe{
+    width: 100%;
+    height: 8vh;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+  
+   
+}
+.boton{
+     display: flex;
+     align-items: center;
+     justify-content:space-around ;
+     border: 2px solid gray;
+     background-color: dimgrey;
+     border-radius: 4px;
+      margin-left: 25px;
+}
+.pa{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }

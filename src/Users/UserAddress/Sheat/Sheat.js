@@ -7,11 +7,12 @@ function Sheat() {
   return (
     <Box className="sheat">
        <Box className="tpsheat">
-          <img src={Img7} alt='sht' width="200" height="200" style={{borderRadius:4}} />
+          <img src="https://wallpapercave.com/wp/WgGibpD.jpg" alt='sht' width="200" height="200" style={{borderRadius:4}} />
        </Box>
        <Box className='btsheat'>
-          <Box className='bat'><Box  className='bit'> Cros Club </Box>
-          <Box style={{color: '#ffab40'}}><CheckCircle/></Box>
+          <Box className='bat'>
+         <Box  className='bit'> Cros Club </Box>
+         <Box><CheckCircle   sx={{color:'#F5C15F',fontSize:18}}/></Box>
           </Box>
           <Box  className='coin'>Croc#1304</Box>
        </Box>

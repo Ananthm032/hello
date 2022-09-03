@@ -5,7 +5,7 @@ import Profile from './Profile'
 function UserProfile() {
   return (
     <div><Topbar/>
-    <Profile/>
+      <Profile/>
     
     </div>
   )
