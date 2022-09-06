@@ -39,7 +39,7 @@
  }
  .boat1{
     display: flex;
-    width: 25%;
+    width: 20%;
     height: 20vh;
     flex-direction: row;
    align-items: center;
@@ -86,10 +86,12 @@
     border-radius: 4px;
  }
  .jeva{
-   padding: 0.5px 21px;
-   background-color: orange;
-   margin-top: 3px;
-   border-radius: 40px;
+   
+      padding: 0.5px 21px;
+      background-color: orange;
+      margin-top: 3px;
+      border-radius: 40px;
+   
  }
  .jeva p{
     font-size: 14px;

@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./address.css"
 import Header from '../../SSide'
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import Sheat from './Sheat/Sheat'
 import Sheat1 from './Sheat1/Sheat1';
 import {Box,Button } from "@mui/material"
+
+
+
 function Address() {
+  const [leftClick,rightClick]=useState('blue')
+  const HandleClick = ()=>{
+    rightClick('yello')
+  }
   return (
     <div className="flex-containe">
      <section class="men">
@@ -16,16 +23,16 @@ function Address() {
 <Sheat1/>
   </div>
   <div className='lowe'>
-          <Box className='boton'>
-            <Button sx={{width:90,height:40,borderRadius:'transparent',background:'#313131' }}>
-         <p className="pa">Created</p>
-            </Button>
-            <Button sx={{width:90,height:40,borderRadius:'transparent',background:'#717171'}}
-            
-            >
-                <p  className="pa">Owned</p>
-                </Button>
-          </Box>
+  <div class="wrapper">
+    <input type="radio" name="select" id="one" checked/>
+    <input type="radio" name="select" id="two"/>
+    <label for="one" class="option option-1">
+      <span>Create</span>
+    </label>
+    <label for="two" class="option option-2">
+      <span>Owned</span>
+    </label>
+  </div>
         </div>
   <div className='botm'>
     <Sheat/>

@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import UserAddress from "./Users/UserAddress/UserAddress"
-import UserProfile from "./Users/UserProfile/Profile"
+
 import Rejected from './Rejected/Rejected';
 import Verified from "./Verified/Verified"
 import { pagesMapping, RoutingContext } from './Context/Routing'
@@ -8,7 +8,7 @@ import Forreview from './Forreview/Forreview';
 import { Route, Routes } from 'react-router-dom';
 import Ananlytic from './Ananlaytic/Ananlytic';
 import User from './Users/User';
-
+import UserProfile from './Users/UserProfile/UserProfile';
 function Ape() {
   const { page } = useContext(RoutingContext)
   

@@ -29,15 +29,13 @@ function Sheat1() {
           <Box className='bv11'>
             
            <Box className="bv111">
-         <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Jevanantham</Box>
-         <Box>
-          <Box className="jeva" >
-             <Box sx={{fontSize:14,}}>Admin</Box> 
-            
-             </Box>
+         <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Ananth</Box>
+         <Box className="jeva" >
+           Admin
          </Box>
+          
          </Box>
-         <Box sx={{fontSize:18,color:'#795548'}}>@Jeva</Box>
+         <Box sx={{fontSize:18,color:'#795548'}}>@Ana1232</Box>
          </Box>
          <Box className='bv12'>
 
@@ -55,7 +53,7 @@ function Sheat1() {
           </Box>
          </Box>
           <Box sx={{fontSize:16,fontWeight:400,fontFamily:'sans-serif'}}>
-         After Writing the basic structure o required tags and content also, after that run this code on your browser and see the output.
+         After Writing the basic structure o required tags and content also,and content also, after that  a browser and see the output.
           </Box>
           </Box>
          </Box>

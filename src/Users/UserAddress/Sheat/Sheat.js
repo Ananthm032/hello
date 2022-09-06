@@ -5,7 +5,7 @@ import Img7 from "../../../Images/Screen.png"
 import CheckCircle from '@mui/icons-material/CheckCircle'
 function Sheat() {
   return (
-    <Box className="sheat">
+  <a href="/users/profile" style={{textDecoration:'none'}}> <Box className="sheat">
        <Box className="tpsheat">
           <img src="https://wallpapercave.com/wp/WgGibpD.jpg" alt='sht' width="200" height="200" style={{borderRadius:4}} />
        </Box>
@@ -17,6 +17,7 @@ function Sheat() {
           <Box  className='coin'>Croc#1304</Box>
        </Box>
     </Box>
+    </a> 
   )
 }
 

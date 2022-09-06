@@ -4,9 +4,9 @@ import Profile from './Profile'
 
 function UserProfile() {
   return (
-    <div><Topbar/>
-      <Profile/>
-    
+    <div>
+     <Topbar/>
+    <Profile/>
     </div>
   )
 }

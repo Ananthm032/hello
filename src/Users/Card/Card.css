@@ -67,22 +67,24 @@
     font-size: 14px;
 }
 .bm{
-  display: flex;
-  flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 5px;
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 5px;
 }
 .rating{
-    padding: 4px 28px;
+    padding: 6px 18px;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;
     font-size: 14px;
-   align-self: left;
+   font-weight: 500;
+    align-self: left;
+    color: #717171;
 }
 .create{
-    padding: 4px 28px;
+    padding: 6px 18px;
+    color: #717171;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;
     font-size: 14px; 
+    font-weight: 500;
 }
