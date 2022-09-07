@@ -5,14 +5,13 @@ import "./mini.css"
 import { Box } from '@mui/material'
 
 import Details from "../Details/Details"
-
-import Header from '../SSide'
+import SSide from '../SSide/SSide'
 function Minisidebar() {
   const { setPage } = useContext(RoutingContext)
   return (
     <div className="flex-contain">
          <section class="me">
- <Header/>
+ <SSide/>
  </section>
    
     <section class="conte">

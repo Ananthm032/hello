@@ -5,7 +5,7 @@ import { Box } from '@mui/material'
 
 import Band from "../Band/Band"
 
-import Header from '../SSide';
+import SSide from '../SSide/SSide'
 
 function Sidebar() {
   const{ setPage } = useContext(RoutingContext);
@@ -16,7 +16,7 @@ return (
     <div className="flex-container">
       
  <section class="menu">
-<Header/>
+<SSide/>
     </section>
     <section class="content">
     

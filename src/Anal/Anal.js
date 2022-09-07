@@ -6,14 +6,14 @@ import StopIcon from '@mui/icons-material/Stop';
 import "./anal.css"
 import LineChart from "../LineChart";
 import Pie from "../PieChart";
-import Header from "../SSide";
+import SSide from "../SSide/SSide";
 
 function Anal() {
  
   return (
     <div className="flex-containe">
          <section class="men">
-         <Header/>
+         <SSide/>
 
     </section>
  

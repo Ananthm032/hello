@@ -1,6 +1,6 @@
 import Select1 from "../Users/Select/Select1"
 import "./UserId.css"
-import Header from "../SSide";
+import SSide from "../SSide/SSide";
 import Select2 from "../Users/Select/Select2"
 
 import Card from "./Card/Card";
@@ -10,7 +10,7 @@ function UserId() {
   return (
     <div className="flex-containe">
          <section class="men">
-         <Header/>
+         <SSide/>
 
     </section>
  

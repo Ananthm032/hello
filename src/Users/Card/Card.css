@@ -72,7 +72,7 @@
   margin-top: 5px;
 }
 .rating{
-    padding: 6px 18px;
+    padding: 6px 20px;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;
     font-size: 14px;
@@ -81,7 +81,7 @@
     color: #717171;
 }
 .create{
-    padding: 6px 18px;
+    padding: 6px 20px;
     color: #717171;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;

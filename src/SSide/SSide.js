@@ -18,7 +18,7 @@ import {
 } from "react-pro-sidebar";
 
 import "react-pro-sidebar/dist/css/styles.css";
-import "./SSise.css"
+import "./SSide.css"
 
 
 
@@ -30,7 +30,10 @@ const Header = () => {
      menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
   
-
+  const [Click,ChangeClick]=useState(true)
+  const HandleClick=()=>{
+  Click ? ChangeClick (false) :ChangeClick(true)
+  }
   return (
     <>
       <div id="header">
@@ -54,13 +57,10 @@ const Header = () => {
             </div>
           </SidebarHeader>
           <SidebarContent >
-          <Menu iconShape="square"
-            
-          
-          >
+          <Menu iconShape="square"  >
 
-          <a href="/">  <MenuItem  icon={<AccessibilityNewIcon/>} className='icon'>Home</MenuItem></a>
-        
+    
+             <a href="/">  <MenuItem  icon={<AccessibilityNewIcon/>} className='icon'>Home</MenuItem></a> 
               <MenuItem icon={<BarChartIcon />} className='icon'> <a href="/analytic"><pq className="pico" value="10">Analytic</pq></a></MenuItem>
               <MenuItem icon={<ArchitectureIcon/>} className='icon'> <a href="/users"><pq  className="pico" value="20">Users</pq></a></MenuItem>
               <MenuItem icon={<ElectricBoltIcon />}className='icon'><pq  className="pico" value="30">Author</pq></MenuItem>

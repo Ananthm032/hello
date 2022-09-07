@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import "./address.css"
-import Header from '../../SSide'
+
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import Sheat from './Sheat/Sheat'
 import Sheat1 from './Sheat1/Sheat1';
 import {Box,Button } from "@mui/material"
+import SSide from '../../SSide/SSide';
 
 
 
@@ -16,7 +17,7 @@ function Address() {
   return (
     <div className="flex-containe">
      <section class="men">
-    <Header/>
+    <SSide/>
 </section>
 <div className="address">
   <div className="ttp">

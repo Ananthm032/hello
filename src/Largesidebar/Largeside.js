@@ -8,13 +8,13 @@ import Content from "../Content/Content"
 import Img3 from "../Images/navbar.png"
 import StopIcon from '@mui/icons-material/Stop';
 import { Link } from 'react-router-dom';
-import Header from '../SSide';
+import SSide from '../SSide/SSide';
 function Largeside() {
    const { setPage } = useContext(RoutingContext)
   return (
     <div className="flex-containe">
          <section class="men">
-         <Header/>
+         <SSide/>
 
     </section>
  

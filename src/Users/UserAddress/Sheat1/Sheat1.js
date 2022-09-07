@@ -43,17 +43,17 @@ function Sheat1() {
          <Box>4.8</Box>
          
          <Box>
-          <Box>
+          
          <StarIcon sx={{color:'#ffa726',fontSize:16}}/>
          <StarIcon sx={{color:'#ffa726',fontSize:16}}/>
          <StarIcon sx={{color:'#ffa726',fontSize:16}}/>
          <StarIcon sx={{color:'#ffa726',fontSize:16}}/>
          <StarHalfIcon sx={{color:'#ffa726',fontSize:16}}/>
-          </Box>
+          
           </Box>
          </Box>
           <Box sx={{fontSize:16,fontWeight:400,fontFamily:'sans-serif'}}>
-         After Writing the basic structure o required tags and content also,and content also, after that  a browser and see the output.
+         After Writing the basic strlso, after that  a bro After Writing the basic strlso, after that  a browser and see the output.
           </Box>
           </Box>
          </Box>
@@ -64,9 +64,9 @@ function Sheat1() {
         <Box className='social'><TwitterIcon/></Box>
         <Box className='social'><LinkedInIcon/></Box>
         </Box>
-        </Box>
-   </Box>
-   </Box>
+          </Box>
+            </Box>
+              </Box>
   )
 }
 
