@@ -3,9 +3,10 @@ import "./profile.css"
 
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import Sheat from '../UserAddress/Sheat/Sheat'
-import Sheat1 from '../UserAddress/Sheat1/Sheat1';
+
 import {Box,Button } from "@mui/material"
 import SSide from '../../SSide/SSide';
+import Sheat1 from './Sheat2/Sheat2';
 function Profile() {
   return (
     <div className="flex-containe">

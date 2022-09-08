@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Sheat1.css"
+import "./Sheat2.css"
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import { Button ,Box} from '@mui/material';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
@@ -16,7 +16,7 @@ function Sheat1() {
     <Box className="backi">
     <Box className="tpp" >
       <Box className="password">
-     <a href="/users"> <KeyboardBackspaceIcon sx={{color:'whitesmoke'}}/></a>
+     <a href="/users/address"> <KeyboardBackspaceIcon sx={{color:'whitesmoke'}}/></a>
       </Box>
     
     </Box>
@@ -30,8 +30,10 @@ function Sheat1() {
             
            <Box className="bv111">
          <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Ananth</Box>
-         
-          
+        
+         <Box className="jeva" >
+           Admin
+         </Box>
          </Box>
          <Box sx={{fontSize:18,color:'#795548'}}>@Ana1232</Box>
          </Box>

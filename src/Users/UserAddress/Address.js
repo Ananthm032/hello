@@ -10,10 +10,7 @@ import SSide from '../../SSide/SSide';
 
 
 function Address() {
-  const [leftClick,rightClick]=useState('blue')
-  const HandleClick = ()=>{
-    rightClick('yello')
-  }
+  
   return (
     <div className="flex-containe">
      <section class="men">
@@ -23,18 +20,7 @@ function Address() {
   <div className="ttp">
 <Sheat1/>
   </div>
-  <div className='lowe'>
-  <div class="wrapper">
-    <input type="radio" name="select" id="one" checked/>
-    <input type="radio" name="select" id="two"/>
-    <label for="one" class="option option-1">
-      <span>Create</span>
-    </label>
-    <label for="two" class="option option-2">
-      <span>Owned</span>
-    </label>
-  </div>
-        </div>
+  
   <div className='botm'>
     <Sheat/>
     <Sheat/>
