@@ -1,3 +1,8 @@
+@font-face {
+  font-family:imported ;
+  src: url(../font/Satoshi-Variable.ttf);
+}
+
 .me {
   display: flex;
   flex-basis: 250px;
@@ -14,14 +19,13 @@ flex-direction: column;
  
  width: 100%;
  height: 86vh;
- border-left: 2px solid rgb(202, 197, 197);
- background-color: #DBDBDB;
+ 
 }
 .mi{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #FFFFFF;
+  background: #FAFAFB;
 }
 .mi1{
  
@@ -33,8 +37,7 @@ flex-direction: column;
 .mi1 p{
   display: flex;
   color: #8C93A3;;
-   
-  font-family: monospace;
+  font-family:imported ;
   font-style: normal;
   font-weight: 500;
   font-size: 24px; 
@@ -53,7 +56,7 @@ flex-direction: column;
   display: flex;
   color:  #8C93A3;;
    
-  font-family: monospace;
+  font-family:imported ;
   font-style: normal;
   font-weight: 500;
   font-size: 24px; 
@@ -70,7 +73,7 @@ flex-direction: column;
 .mi3 p{
   display: flex;
   color: #F1A240; 
-  font-family: monospace;
+  font-family:imported ;
   font-style: normal;
   font-weight: 500;
   font-size: 24px; 
@@ -84,7 +87,7 @@ flex-direction: column;
   height: 72px;
   background: #FFF8D7;
   opacity: 0.5;
-  font-family:sans-serif;
+  font-family:imported ;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

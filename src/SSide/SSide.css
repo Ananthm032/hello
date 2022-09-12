@@ -1,11 +1,14 @@
-
+@font-face {
+  font-family:imported ;
+  src: url(../font/Satoshi-Variable.ttf);
+}
 
 #header {
     
   width: 250px;
 }
 #header .pro-sidebar {
-  height: 86vh;
+  height: 86.3vh;
 }
 
 #header .pro-sidebar {
@@ -56,9 +59,9 @@
 }
 .yoga h3{
   color: #000;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:imported ;
 }
 
 #header .closemenu {
@@ -68,8 +71,9 @@
   z-index: 9999;
   line-height: 20px;
   border-radius: 50%;
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: bolder;
+  font-family:imported ;
+  font-size: 24px;
   top: 0px;
   cursor: pointer;
    display: none;
@@ -80,11 +84,13 @@
 .icon::before {  
   transform: scaleX(0);
   transform-origin: bottom right;
+
 }
 
 .icon:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
+  
 }
 
 .icon::before {
@@ -101,6 +107,7 @@
 .icon {
   position: relative;
   font-size: 5rem;
+  font-family:imported ;
  margin: 0px 10px;
  transition: 0.5s;
 }
@@ -133,6 +140,7 @@
   position: absolute;
   right: 90;
   z-index: 9999;
+
   line-height: 20px;
   border-radius: 50%;
   font-weight: bold;

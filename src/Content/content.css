@@ -1,3 +1,10 @@
+@font-face {
+    font-family:imported ;
+    src: url(../font/Satoshi-Variable.ttf);
+}
+
+
+
 .scrool{
     width: 100%;
     background-color: #DBDBDB;
@@ -13,7 +20,7 @@
     gap: 10px;
 }
 .tope1{
-    font-family: monospace;
+    font-family:imported ;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -23,13 +30,14 @@ font-size: 20px;
     border-radius: 40px;
     color: #0D6008;
     padding: 3px 22px;
-
+    font-family:imported ;
+    font-weight: bold;  
 }
 .simplee1{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -37,7 +45,7 @@ font-size: 20px;
 }
 .simplee2{
    text-align: initial;
-   font-family: 'Satoshi';
+   font-family:imported ;
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
@@ -50,15 +58,15 @@ font-size: 20px;
    font-style: normal;
 font-weight: 500;
 font-size: 20px;
-font-family: monospace;
+font-family:imported ;
 }
 
 .buc1{
-    border: 8px solid #DBDBDB;
+    border:8px solid  #EEEEEE  ;
      
 }
 .buc{
-    border: 8px solid #DBDBDB;
+    border:8px solid #EEEEEE  ;
      
 }
 .tape{
@@ -68,7 +76,7 @@ font-family: monospace;
     gap:10px
 }
 .tape1{
-    font-family: monospace;
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -78,13 +86,14 @@ font-family: monospace;
 border-radius: 40px;
 color: #0D6008;
 padding: 3px 22px;
- 
+font-family:imported ;
+font-weight: bold;
 }
 .sime1{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -92,7 +101,7 @@ padding: 3px 22px;
 }
 .sime2{
     text-align: initial;
-   font-family: 'Satoshi';
+    font-family:imported ;
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
@@ -113,7 +122,7 @@ padding: 3px 22px;
    
 }
 .maile h5{
-    font-family: 'Satoshi';
+    font-family:imported ;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -121,7 +130,7 @@ margin-top: -10px;
 color: #598CF4;
 }
 .maile h4{
-    font-family: 'Satoshi';
+    font-family:imported ;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -137,7 +146,7 @@ left: auto;
          
    }
    .twittere h4{
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -145,7 +154,7 @@ left: auto;
     
    }
    .twittere h5{
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -161,7 +170,7 @@ left: auto;
           
    }
    .instae h4{
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -169,7 +178,7 @@ left: auto;
    }
    .instae h5{
     display: flex;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -184,7 +193,7 @@ left: auto;
           
    }
    .dribblee h4{
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -192,7 +201,7 @@ left: auto;
    }
    .dribblee h5{
     display: flex;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -208,7 +217,7 @@ left: auto;
    }
    .behancee h4{
    
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -216,7 +225,7 @@ left: auto;
    }
    .behancee h5{
     display: flex;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -227,15 +236,16 @@ left: auto;
    .Nam{
     display: flex;
     align-items: center;
-   margin-left: auto;
-   font-style: normal;
-font-weight: 500;
-font-size: 20px;
-font-family: monospace;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 500;
+   font-size: 20px;
+   font-family:imported ;
    }
   .hii{
     width: 100%;
     height: 73vh;
+    background: linear-gradient(135deg, #EEEEEE 47.92%, #F6F6F6 60.42%, #EEEEEE 72.92%);
   }
   @media screen and (max-width:420px) {
     .tope button{

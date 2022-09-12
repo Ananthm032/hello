@@ -1,10 +1,13 @@
-
+@font-face {
+  font-family:imported ;
+  src: url(../font/Satoshi-Variable.ttf);
+}
  .tac{
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 86vh;
-  background: #DBDBDB;
+  background: linear-gradient(135deg, #EEEEEE 47.92%, #F6F6F6 60.42%, #EEEEEE 72.92%);
  }
  .cat{
   width:100%;
@@ -18,6 +21,9 @@
  justify-content: space-between;
  margin-right: 20px;
  margin-left: 20px;
+ }
+ .items{
+  font-family:imported ;
  }
  .Id{
   display: flex;

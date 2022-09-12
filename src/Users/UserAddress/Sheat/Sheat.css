@@ -1,10 +1,14 @@
+@font-face {
+    font-family:imported ;
+    src: url(../../../font/Satoshi-Variable.ttf);
+  }
 .sheat{
     display: flex;
     flex-direction: column;
     width: 200px;
     height: 250px;
     border-radius:4px ;
-    background:rgba(245, 245, 245,0.9)
+    background: #FFFFFF;
     
 }
 .bat{
@@ -15,11 +19,11 @@
   
 }
 .coin{
-    font-size: 13px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-family:imported ;
   }
 .bit{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:imported ;
     font-size: 18px;
 
 }

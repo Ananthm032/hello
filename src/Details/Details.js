@@ -73,7 +73,7 @@ export default function ControlledAccordions() {
             <Box className='ta1'>
             CreateName
           </Box>
-          <Box>
+          <Box >
             <Button>Rejected</Button>
           </Box>
           </Box>

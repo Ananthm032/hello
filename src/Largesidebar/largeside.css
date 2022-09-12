@@ -1,3 +1,9 @@
+@font-face {
+  font-family:imported ;
+  src: url(../font/Satoshi-Variable.ttf);
+}
+
+
 .men {
     display: flex;
     flex-basis: 250px;
@@ -15,14 +21,13 @@
    
    width: 100%;
    height: 86vh;
-   border-left: 2px solid rgb(202, 197, 197);
    background-color: #DBDBDB;
   }
  .min{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FFFFFF;
+    background: #FAFAFB;
  }
  .min1{
    
@@ -34,8 +39,7 @@
   .min1 p{
     display: flex;
     color: #8C93A3;;
-   
-    font-family: monospace;
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 24px; 
@@ -53,7 +57,7 @@
   .min2 p{
     display: flex;
     color: #F1A240; 
-    font-family: monospace;
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 24px; 
@@ -71,7 +75,7 @@
     display: flex;
     color: #8C93A3;;
    
-    font-family: monospace;
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 24px; 
@@ -86,7 +90,7 @@
     height: 72px;
     background: #FFF8D7;
     opacity: 0.5;
-    font-family:sans-serif;
+    font-family:imported ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;

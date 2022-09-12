@@ -16,7 +16,7 @@ return (
     <div className="flex-container">
       
  <section class="menu">
-<SSide/>
+  <SSide/>
     </section>
     <section class="content">
     

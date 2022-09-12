@@ -1,3 +1,7 @@
+@font-face {
+    font-family:imported ;
+    src: url(../font/Satoshi-Variable.ttf);
+}
 
 
 .input{
@@ -16,7 +20,7 @@
 .h3{
     width: 200px;
     background: #FFAD0D;
-    font-family: 'Satoshi';
+    font-family:imported ;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -26,10 +30,10 @@
 
     margin-left: 40%;
    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
-border-radius: 3px;
-flex: none;
-order: 0;
-flex-grow: 0;
+       border-radius: 3px;
+      flex: none;
+     order: 0;
+    flex-grow: 0;
     text-align: center;
     justify-content: center;
      
@@ -59,7 +63,8 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     cursor: pointer;
-    font-style: normal;
+    font-family:imported ;
+    font-weight: bold;
 }
 
 .button hq{
@@ -80,7 +85,8 @@ flex-grow: 0;
     flex-grow: 0;
     margin-left:30px;
     cursor: pointer;
-
+    font-family:imported ;
+    font-weight: bold;
 }
 @media screen and (max-width:840px) {
 .button hp{
@@ -96,7 +102,8 @@ flex-grow: 0;
     color: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
-   
+    font-family:imported ;
+    font-weight: bold;
 }
 
 .button hq{

@@ -1,3 +1,9 @@
+@font-face {
+    font-family:imported ;
+    src: url(../../font/Satoshi-Variable.ttf);
+}
+
+
 .card{
      display: flex;
      flex-direction: column;
@@ -40,8 +46,8 @@
 }
  .p{
     font-size: 12px;
-    font: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-family:imported ;
     color: brown;
 }
 .Creatername{
@@ -52,7 +58,7 @@
 }
 .name{
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:imported ;
     color:#717171;
     font-weight: bold;
     
@@ -63,28 +69,32 @@
     margin-top: 5px;
 }
 .metic{
+    font-family:imported ;
     color:rgba(113, 113, 113, 1);
     font-size: 14px;
 }
 .bm{
   display: inline-flex;
-  gap: 8px;
+  gap: 4px;
   margin-top: 5px;
+  font-family:imported ;
 }
 .rating{
-    padding: 6px 20px;
+    padding: 4px 20px;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;
     font-size: 14px;
    font-weight: 500;
     align-self: left;
     color: #717171;
+    font-family:imported ;
 }
 .create{
-    padding: 6px 20px;
+    padding: 4px 20px;
     color: #717171;
     border: 1px solid rgb(164, 161, 161);
     border-radius: 35px;
     font-size: 14px; 
     font-weight: 500;
+    font-family:imported ;
 }

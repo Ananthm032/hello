@@ -29,11 +29,11 @@ function Sheat1() {
           <Box className='bv11'>
             
            <Box className="bv111">
-         <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Ananth</Box>
+         <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Jevanantham</Box>
          
           
          </Box>
-         <Box sx={{fontSize:18,color:'#795548'}}>@Ana1232</Box>
+         <Box sx={{fontSize:18,color:'#795548'}}>@jeva132</Box>
          </Box>
          <Box className='bv12'>
 
@@ -50,7 +50,7 @@ function Sheat1() {
           
           </Box>
          </Box>
-          <Box sx={{fontSize:16,fontWeight:400,fontFamily:'sans-serif'}}>
+          <Box sx={{fontSize:16,fontWeight:400}}>
          After Writing the basic strlso, after that  a bro After Writing the basic strlso, after that  a browser and see the output.
           </Box>
           </Box>
