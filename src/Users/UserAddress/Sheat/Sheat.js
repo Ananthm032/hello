@@ -7,7 +7,7 @@ function Sheat() {
   return (
   <a href="/users/profile" style={{textDecoration:'none'}}> <Box className="sheat">
        <Box className="tpsheat">
-          <img src="https://wallpapercave.com/wp/WgGibpD.jpg" alt='sht' width="200" height="200" style={{borderRadius:4}} />
+          <img src="https://wallpapercave.com/wp/WgGibpD.jpg" alt='sht' />
        </Box>
        <Box className='btsheat'>
           <Box className='bat'>

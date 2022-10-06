@@ -23,14 +23,14 @@ function Sheat1() {
     <Box className="btt">
        <Box className="boat">
           <Box className="bv">
-           <img src="https://pre00.deviantart.net/27d4/th/pre/i/2013/202/1/7/aqua___realm_of_darkness_by_arxami-d6egi5y.jpg" alt='nam' width="100" height="100" />
+           <img src="https://pre00.deviantart.net/27d4/th/pre/i/2013/202/1/7/aqua___realm_of_darkness_by_arxami-d6egi5y.jpg" alt='nam'  />
          </Box>
          <Box className="bv1">
           <Box className='bv11'>
             
            <Box className="bv111">
          <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Jevanantham</Box>
-         
+        
           
          </Box>
          <Box sx={{fontSize:18,color:'#795548'}}>@jeva132</Box>

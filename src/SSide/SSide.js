@@ -1,6 +1,5 @@
 import React, { useState} from "react";
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
-import {Link, NavLink} from "react-router-dom"
 import BarChartIcon from '@mui/icons-material/BarChart';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
 import FlashOffIcon from '@mui/icons-material/FlashOff';
@@ -16,7 +15,6 @@ import {
   SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
-
 import "react-pro-sidebar/dist/css/styles.css";
 import "./SSide.css"
 
@@ -30,10 +28,6 @@ const Header = () => {
      menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
   
-  const [Click,ChangeClick]=useState(true)
-  const HandleClick=()=>{
-  Click ? ChangeClick (false) :ChangeClick(true)
-  }
   return (
     <>
       <div id="header">

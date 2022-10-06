@@ -6,13 +6,7 @@
   overflow-y: scroll;
   background: linear-gradient(135deg, #EEEEEE 47.92%, #F6F6F6 60.42%, #EEEEEE 72.92%);
  }
- @media screen and (max-width:600px){
-  .tic{
-    height: 80vh;;
-    margin-left: 5%;
-    width: 90%;
-  }
- }
+ 
  @media screen and (max-width:450px) {
   .tic{
   

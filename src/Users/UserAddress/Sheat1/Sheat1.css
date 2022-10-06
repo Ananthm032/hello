@@ -42,6 +42,8 @@
  }
  .bv img{
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
  }
  .boat1{
     display: flex;
@@ -92,15 +94,4 @@
     background: #FFFFFF;
     border-radius: 4px;
  }
- .jeva{
    
-      padding: 0.5px 21px;
-      background-color: orange;
-      margin-top: 3px;
-      border-radius: 40px;
-   
- }
- .jeva p{
-    font-size: 14px;
-    font-weight: 500;
- }

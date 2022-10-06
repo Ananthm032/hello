@@ -9,7 +9,7 @@ function Topbar() {
   <header className='header'>
  
  <Box className='box'>
- <Box><img src={Img} alt='' width='150px' height='48px' /></Box>
+ <Box><img src={Img} alt='' width='150px' height='40px' /></Box>
 <Box ><p>Admin</p>
 </Box> 
  </Box>

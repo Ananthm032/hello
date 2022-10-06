@@ -14,7 +14,7 @@ function Sheat1() {
   return (
    <Box className="total">
     <Box className="backi">
-    <Box className="tpp" >
+     <Box className="tpp" >
       <Box className="password">
      <a href="/users/address"> <KeyboardBackspaceIcon sx={{color:'whitesmoke'}}/></a>
       </Box>
@@ -27,13 +27,9 @@ function Sheat1() {
          </Box>
          <Box className="bv1">
           <Box className='bv11'>
-            
-           <Box className="bv111">
+          <Box className="bv111">
          <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Jevanantham</Box>
-        
-         <Box className="jeva" >
-           Admin
-         </Box>
+        <Box sx={{background:'yellow'}}>Heloo</Box>
          </Box>
          <Box sx={{fontSize:18,color:'#795548'}}>@jeva132</Box>
          </Box>

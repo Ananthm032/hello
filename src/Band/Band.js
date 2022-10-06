@@ -21,7 +21,7 @@ export default function ControlledAccordions() {
         const res = await fetch('https://jsonplaceholder.typicode.com/users');
         console.log(res);
         const data = await res.json();
-        setData(data.splice(0,3));
+        setData(data.splice(2,5));
          setTimeout(()=>{
         SetLoading(false);
       },5000)

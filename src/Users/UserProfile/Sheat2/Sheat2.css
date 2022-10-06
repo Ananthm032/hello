@@ -93,16 +93,16 @@
     background: #FFFFFF;
     border-radius: 4px;
  }
+ 
  .jeva{
-   
-      padding: 0.5px 21px;
-      background-color: orange;
-      margin-top: 3px;
-      border-radius: 40px;
-   
+   margin-top: 6px;
+   background-color: rgb(234, 182, 12);
+   padding: 3px 18px;
+   border-radius: 40%;
  }
- .jeva p{
-    font-size: 14px;
-    font-weight: 500;
-    font-family:imported ;
+ @media screen and (max-width:740px){
+   .password{
+      
+      
+   }
  }
