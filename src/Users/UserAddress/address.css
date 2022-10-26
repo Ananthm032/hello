@@ -7,7 +7,7 @@
     height: 40vh;
     width: 100%;
 }
-.botm{
+.botm2{
      display: flex;
       align-items: center;
       justify-content: space-around;
@@ -78,6 +78,17 @@
     .ttp{
       margin-left: 25%;
     }
+   .botm2{
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 15%;
+    justify-content: normal;
+   }
+   .address{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 88.6vh;
+   }
   }
   @media screen and (max-width:740px) {
     .ttp{

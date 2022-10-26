@@ -1,10 +1,9 @@
 import React from 'react'
 import "./Sheat2.css"
-import ReplyAllIcon from '@mui/icons-material/ReplyAll';
-import { Button ,Box} from '@mui/material';
+
+import {Box} from '@mui/material';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import Img8 from "../../../Images/147144.png"
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -27,9 +26,10 @@ function Sheat1() {
          </Box>
          <Box className="bv1">
           <Box className='bv11'>
-          <Box className="bv111">
-         <Box sx={{fontSize:46,color:'#795548',fontWeight:700}}>Jevanantham</Box>
-        <Box sx={{background:'yellow'}}>Heloo</Box>
+          <Box className='bv011'>
+          <Box  className="bv111">Jevanantham</Box>
+        <Box className='bv112'>Heloo</Box>
+         
          </Box>
          <Box sx={{fontSize:18,color:'#795548'}}>@jeva132</Box>
          </Box>
@@ -54,7 +54,7 @@ function Sheat1() {
           </Box>
          </Box>
        </Box>
-       <Box className="boat1">
+       <Box className="boat11">
         <Box className='social'><FacebookIcon /></Box>
         <Box className='social'><InstagramIcon/></Box>
         <Box className='social'><TwitterIcon/></Box>

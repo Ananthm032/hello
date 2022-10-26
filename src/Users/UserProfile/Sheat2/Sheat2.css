@@ -44,7 +44,7 @@
  .bv img{
     border-radius: 50%;
  }
- .boat1{
+ .boat11{
     display: flex;
     width: 20%;
     height: 20vh;
@@ -71,6 +71,7 @@
     width: 100%;
     height: 22vh;
    background-image: url(../../../Images/Screen.png);
+   background-size: cover;
  }
  .bv{
     width: 100px;
@@ -79,8 +80,10 @@
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
  }
- .bv11{
+ .bv011{
     line-height: 30px;
+    display: flex;
+    align-items: center;
  }
  .bv111{
     display: flex;
@@ -93,16 +96,67 @@
     background: #FFFFFF;
     border-radius: 4px;
  }
- 
+ .bv111{
+   font-size: 46px;
+   color:rgb(105, 35, 45);
+   font-weight: 700;
+ }
+ .bv112{
+   font-size: 18px;
+   color:rgb(19, 16, 16);
+   font-weight: 700;
+ }
  .jeva{
    margin-top: 6px;
    background-color: rgb(234, 182, 12);
    padding: 3px 18px;
    border-radius: 40%;
  }
- @media screen and (max-width:740px){
-   .password{
-      
-      
+ @media screen and (max-width:720px){
+   
+   .total{
+    width: 85%;
+    height: 32vh;
+    margin-left: 15%;
    }
- }
+   .backi{
+     
+      height: 15vh;
+      background-size: cover;
+   }
+   .tpp{
+      height: 5vh;
+   }
+   .btt{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        gap: 10px;
+   }
+   .boat{
+     
+      width: 100%;
+   }
+   .bv1{
+   margin-left: 12px;
+   gap: 6px;
+   }
+   .bv11 {
+      line-height: 50px;
+   }
+   .bv111{
+      font-size: 30px;
+      
+    }
+    .bv112{
+      font-size: 14px;
+     
+    }
+    .boat11{
+      
+      display: flex;
+      flex-direction: row;
+      margin-left: 25px;
+      width: 95%;
+   }
+   }

@@ -21,7 +21,7 @@ function Address() {
 <Sheat1/>
   </div>
   
-  <div className='botm'>
+  <div className='botm2'>
     <Sheat/>
     <Sheat/>
     <Sheat/>

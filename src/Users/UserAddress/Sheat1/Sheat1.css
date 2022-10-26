@@ -4,14 +4,14 @@
  }
  
 
-.total{
+.total1{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 33vh;
     font-family:imported ;
 }
-.tpp{
+.tpp-1{
     width: 100%;
     height: 10vh;
     display: flex;
@@ -24,17 +24,16 @@
    border-radius: 50%;
    margin-left: 20px;
 }
-.btt{
+.btt-1{
     display: flex;
     align-items: center;
     justify-content:space-between;
     width: 100%;
     height: 23vh;
-    
-    
+
 }
 
-.boat{
+.boat1{
    
     display: flex;
     flex-direction: row;
@@ -45,7 +44,7 @@
     width: 100px;
     height: 100px;
  }
- .boat1{
+ .boat-1{
     display: flex;
     width: 20%;
     height: 20vh;
@@ -54,7 +53,7 @@
     justify-content: space-evenly;
 
  }
- .bv1{
+ .bv-1{
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -68,10 +67,11 @@
     align-items: center;
     justify-content: flex-start;
  }
- .backi{
+ .backi1{
     width: 100%;
     height: 22vh;
-   background-image: url(../../../Images/Screen.png);
+    background-image: url(../../../Images/Screen.png);
+   background-size: cover;
  }
  .bv{
     width: 100px;
@@ -80,14 +80,18 @@
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
  }
- .bv11{
+ .bv-11{
     line-height: 30px;
  }
- .bv111{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+ .bv-111{
+   font-size: 46px;
+   color:rgb(105, 35, 45);
+   font-weight: 700;
+ }
+ .bv-112{
+   font-size: 18px;
+   color:rgb(19, 16, 16);
+   font-weight: 700;
  }
  .social{
     padding: 5px 5px 3px 5px;
@@ -95,3 +99,50 @@
     border-radius: 4px;
  }
    
+@media screen and (max-width:720px){
+   
+.total1{
+ width: 85%;
+ height: 35vh;
+}
+.backi1{
+  
+   height: 15vh;
+   background-size: cover;
+}
+.tpp-1{
+   height: 5vh;
+}
+.btt-1{
+     display: flex;
+     flex-direction: column;
+     height: 25vh;
+     gap: 10px;
+}
+.boat-1{
+  
+   width: 100%;
+}
+.bv-1{
+margin-left: 12px;
+gap: 6px;
+}
+.bv-11 {
+   line-height: 40px;
+}
+.bv-111{
+   font-size: 35px;
+   
+ }
+ .bv-112{
+   font-size: 14px;
+  
+ }
+ .boat1{
+   
+   display: flex;
+   flex-direction: row;
+   margin-left: 25px;
+   width: 95%;
+}
+}

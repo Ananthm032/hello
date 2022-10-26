@@ -73,3 +73,22 @@
     font-weight: 400;
     font-family:imported ;
   }
+  @media screen and (max-width:720px){
+    .lowe1{
+     
+      height: 6vh;
+      margin-left: 15%;
+  
+  }
+  .botm1{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: normal;
+    margin-left: 15%;
+  }
+  .address1{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 88.6vh;
+  }
+  }
